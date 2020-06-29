@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "tests_DivVector",
+      "sloc": [
+        {
+          "file": "tests_divvector.adb",
+          "line": 4
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.44390005152673E-03,
+    "globals (basic)": 2.14726999402046E-02,
+    "globals/properties (advanced)": 2.44919005781412E-02,
+    "flow analysis": 5.02299983054399E-04,
+    "codepeer results": 5.50000004295725E-06,
+    "init_why_sections": 4.96499997097999E-04,
+    "translation of standard": 3.65950004197657E-03,
+    "translation of compilation unit": 6.80000009015203E-03,
+    "proof": 2.60000001617300E-06
+  }
+}

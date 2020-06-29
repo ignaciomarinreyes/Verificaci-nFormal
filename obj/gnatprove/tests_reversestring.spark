@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "tests_ReverseString",
+      "sloc": [
+        {
+          "file": "tests_reversestring.adb",
+          "line": 4
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.66019995231181E-03,
+    "globals (basic)": 1.97112001478672E-02,
+    "globals/properties (advanced)": 2.71940007805824E-02,
+    "flow analysis": 7.44000019039959E-04,
+    "codepeer results": 8.69999985297909E-06,
+    "init_why_sections": 7.34000001102686E-04,
+    "translation of standard": 5.13140019029379E-03,
+    "translation of compilation unit": 5.30999992042780E-03,
+    "proof": 3.00000010611257E-06
+  }
+}

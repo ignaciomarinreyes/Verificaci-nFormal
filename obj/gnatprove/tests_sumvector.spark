@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "tests_sumVector",
+      "sloc": [
+        {
+          "file": "tests_sumvector.adb",
+          "line": 4
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.41449994407594E-03,
+    "globals (basic)": 1.91955994814634E-02,
+    "globals/properties (advanced)": 2.95724999159575E-02,
+    "flow analysis": 4.88599995151162E-04,
+    "codepeer results": 1.03000002127374E-05,
+    "init_why_sections": 8.88600014150143E-04,
+    "translation of standard": 6.03620009496808E-03,
+    "translation of compilation unit": 6.54389988631010E-03,
+    "proof": 3.69999997928971E-06
+  }
+}

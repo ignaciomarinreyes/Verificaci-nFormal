@@ -1,0 +1,31 @@
+{
+  "spark": [
+    {
+      "name": "tests_ScaleChanger",
+      "sloc": [
+        {
+          "file": "tests_scalechanger.adb",
+          "line": 4
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 1.40169996302575E-03,
+    "globals (basic)": 2.01326999813318E-02,
+    "globals/properties (advanced)": 2.97062993049622E-02,
+    "flow analysis": 1.17009994573891E-03,
+    "codepeer results": 9.70000019151485E-06,
+    "init_why_sections": 7.48299993574619E-04,
+    "translation of standard": 5.61109976842999E-03,
+    "translation of compilation unit": 9.09799989312887E-03,
+    "proof": 3.00000010611257E-06
+  }
+}

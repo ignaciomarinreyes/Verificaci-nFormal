@@ -1,0 +1,53 @@
+Summary of SPARK analysis
+=========================
+
+---------------------------------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total        Flow   Interval   CodePeer                              Provers   Justified   Unproved
+---------------------------------------------------------------------------------------------------------------------------------
+Data Dependencies                 6           6          .          .                                    .           .          .
+Flow Dependencies                 6           6          .          .                                    .           .          .
+Initialization                    3           3          .          .                                    .           .          .
+Non-Aliasing                      .           .          .          .                                    .           .          .
+Run-time Checks                  96           .          .          .                            95 (CVC4)           .          1
+Assertions                       19           .          .          .    19 (CVC4 74%, Z3 22%, altergo 4%)           .          .
+Functional Contracts              6           .          .          .                 6 (CVC4 77%, Z3 23%)           .          .
+LSP Verification                  .           .          .          .                                    .           .          .
+---------------------------------------------------------------------------------------------------------------------------------
+Total                           136    15 (11%)          .          .                            120 (88%)           .     1 (1%)
+
+
+max steps used for successful proof: 188
+
+Analyzed 13 units
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:8 skipped
+in unit pkg_alphavalue, 2 subprograms and packages out of 2 analyzed
+  pkg_alphavalue at pkg_alphavalue.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  pkg_alphavalue.alphaValue at pkg_alphavalue.ads:6 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (22 checks)
+in unit pkg_divvector, 2 subprograms and packages out of 2 analyzed
+  pkg_divvector at pkg_divvector.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  pkg_divvector.divVector at pkg_divvector.ads:5 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (31 checks)
+in unit pkg_randomvector, 2 subprograms and packages out of 2 analyzed
+  pkg_randomvector at pkg_randomvector.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  pkg_randomvector.randomVector at pkg_randomvector.ads:5 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 20 checks out of 21 proved
+in unit pkg_reversestring, 2 subprograms and packages out of 2 analyzed
+  pkg_reversestring at pkg_reversestring.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  pkg_reversestring.reverseString at pkg_reversestring.ads:5 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (17 checks)
+in unit pkg_scalechanger, 2 subprograms and packages out of 2 analyzed
+  pkg_scalechanger at pkg_scalechanger.ads:2 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  pkg_scalechanger.scaleChanger at pkg_scalechanger.ads:4 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (9 checks)
+in unit pkg_sumvector, 2 subprograms and packages out of 2 analyzed
+  Pkg_sumVector at pkg_sumvector.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Pkg_sumVector.sumVector at pkg_sumvector.ads:7 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (21 checks)
+in unit tests_alphavalue, 0 subprograms and packages out of 1 analyzed
+  tests_AlphaValue at tests_alphavalue.adb:4 skipped
+in unit tests_divvector, 0 subprograms and packages out of 1 analyzed
+  tests_DivVector at tests_divvector.adb:4 skipped
+in unit tests_randomvector, 0 subprograms and packages out of 1 analyzed
+  tests_RandomVector at tests_randomvector.adb:4 skipped
+in unit tests_reversestring, 0 subprograms and packages out of 1 analyzed
+  tests_ReverseString at tests_reversestring.adb:4 skipped
+in unit tests_scalechanger, 0 subprograms and packages out of 1 analyzed
+  tests_ScaleChanger at tests_scalechanger.adb:4 skipped
+in unit tests_sumvector, 0 subprograms and packages out of 1 analyzed
+  tests_sumVector at tests_sumvector.adb:4 skipped
